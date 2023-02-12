@@ -9,13 +9,6 @@ for (let i = 0; i < t.length; i++) {
   t[i].value = "empty";
 }
 
-
-
-
-
-
-
-
 for (let i = 0; i < 3; i++) {
   m[i] = [];
   for (let j = 0; j < 3; j++) {
@@ -95,14 +88,14 @@ for (let i = 0; i < t.length; i++) {
         result.textContent = "Player " + winner + " wins the game!";
         setTimeout(function () {
           location.reload();
-        }, 5000);
+        }, 3000);
 
       } else if (winner === "draw") {
         resetBoard(t);
         result.textContent = "It's a draw!";
         setTimeout(function () {
           location.reload();
-        }, 5000);
+        }, 3000);
 
       }
     }
