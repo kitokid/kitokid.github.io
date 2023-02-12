@@ -88,14 +88,14 @@ for (let i = 0; i < t.length; i++) {
         result.textContent = "Player " + winner + " wins the game!";
         setTimeout(function () {
           location.reload();
-        }, 3000);
+        }, 1000);
 
       } else if (winner === "draw") {
         resetBoard(t);
         result.textContent = "It's a draw!";
         setTimeout(function () {
           location.reload();
-        }, 3000);
+        }, 1000);
 
       }
     }
